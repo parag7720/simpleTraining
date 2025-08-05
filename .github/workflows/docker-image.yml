@@ -35,4 +35,4 @@ jobs:
         docker push parag7/simpletraining:latest
 
     - name: Run Docker Compose
-      run: docker-compose up -d
+      run: docker compose up -d
