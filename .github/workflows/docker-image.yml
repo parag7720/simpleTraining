@@ -33,3 +33,6 @@ jobs:
     - name: Push Docker Image to Docker Hub
       run: |
         docker push parag7/simpletraining:latest
+
+    - name: Run Docker Compose
+      run: docker-compose up -d
